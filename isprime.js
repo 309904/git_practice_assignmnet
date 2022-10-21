@@ -1,19 +1,19 @@
-or(let i=1;i<=50;i++)
+for(let n=1;n<=50;n++)
   {
     let count=0;
-    for(let j=1; j<=i; j++)
+    for(let j=1; j<=n; j++)
     {
-        if(i%j=0)
+        if(n%j=0)
         {
           count++;
         }
     }
     if(count=2)
     {
-      console.log(i, " is Prime");
+      console.log(n, " is Prime");
     }
     else
     {
-      console.log(i, " is not Prime");
+      console.log(n, " is not Prime");
     }
   }
